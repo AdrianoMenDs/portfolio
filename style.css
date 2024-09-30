@@ -57,3 +57,14 @@ body {
   footer p {
     margin: 0;
   }
+
+  avbar-brand,
+.nav-link {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #ffc107;
+  transform: scale(1.1);
+}
